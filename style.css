@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@200;400&display=swap');
+:root {
+--bg :  rgb(250 250 250);
+--color: #5f6368;
+--btncolor:#fafafa;
+--btntext : #5f6368;
+--btnboader:rgb(138 141 145);
+--btnhoverbk:#00a2ff50;
+--fcbackground:#ffffff;
+--fcboader:rgb(138 141 145);
+--tgbtn:#333;
+}
+.dark{
+--bg : 	#3d3d3d ;
+--color: rgb(238, 238, 238);
+--btncolor:#15202b;
+--btntext :rgb(238, 238, 238) ;
+--btnboader:rgb(138 141 145);
+--btnhoverbk:#00a2ff50;
+--fcbackground:	#444;
+--fcboader:#8899ac ;
+--tgbtn:rgb(250 250 250);
+}
+html,
+body {
+    font-family: noto sans sinhala, Bebas Neue, cursive;
+    height: 80%;
+   
+
+}
+
+html{
+    border-top: #00a2ff 5px solid;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    color: var(--color);
+    background-color: var(--bg);
+    padding-top: 5vh;
+    overflow: hidden;
+    
+    
+}
+
+h1{
+    position: absolute;
+    padding-bottom: 17rem;
+    color:rgb(8, 3, 3);
+    text-align: center; 
+}
+
+h2{
+    position: absolute;
+    font-size: 0.8rem;
+    padding-top: 20rem;
+    font-family: nunito;
+    text-align: center; 
+}
+
+p{
+    position: absolute;
+    font-size: 13px;
+    padding-top: 29rem;
+    font-family: nunito;
+    text-align: center;   
+}
+#speedtest {
+    font-family:  Bebas Neue, cursive;
+    position: relative;
+    text-align: center; 
+}
+
+#speedtest #label {
+    font-family: Bebas Neue, cursive;
+    position: absolute;
+    font-size: 10rem;
+    transform: translate(-50%, -50%);
+    color:#333;
+}
+
+#speedtest #label:after {
+    font-family: Bebas Neue, cursive;
+    content: "Mbit/s";
+    position: absolute;
+    font-size: 24%;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
+
+#region {
+    font-family: Bebas Neue, cursive;
+    position: absolute;
+    font-family: nunito;
+    font-size: 0.8rem;
+    transform: translate(-50%, -50%);
+    padding-top: 22rem;
+    font-weight: bolder;
+}
+
